@@ -56,7 +56,7 @@ export default function Features() {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <h3 className="text-blue-500 mb-2 md:mb-4 text-lg md:text-2xl font-playfair">
+              <h3 className="text-[#456875]  mb-2 md:mb-4 text-lg md:text-2xl font-playfair">
                 {feature.title}
               </h3>
               <p className="text-gray-700 text-xs md:text-base">{feature.description}</p>

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-[#1a1a1a] to-[#2a2a2a] pt-24 pb-8">
+    <footer className="bg-gradient-to-b from-[#2b2842] to-[#2a2a2a] pt-24 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="px-4">
@@ -59,7 +59,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-16 pt-8 border-t border-gray-800 text-center text-gray-500">
+        <div className="mt-16 pt-8 border-t border-[#456875]  text-center text-gray-500">
           <p>&copy; 2025 Jogja Singgah. All rights reserved.</p>
         </div>
       </div>
