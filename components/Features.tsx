@@ -33,7 +33,7 @@ export default function Features() {
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-b from-[#e6f0f2] to-[#f8fafc]">
+    <section className="py-2 bg-gradient-to-b from-[#e6f0f2] to-[#f8fafc]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl text-gradient font-playfair mb-6">
