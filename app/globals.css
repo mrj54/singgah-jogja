@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins text-[#7296a4] bg-gradient-to-b from-[#f8fafc] to-[#e6f0f2];
+  }
+}
+
+.glass-effect {
+  @apply bg-white/20 backdrop-blur-lg border border-white/30;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-[#7296a4] to-[#9ebecb];
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s forwards;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
+}
