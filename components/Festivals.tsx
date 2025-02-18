@@ -35,7 +35,7 @@ export default function Festivals() {
   };
 
   return (
-    <section className="py-2 bg-gradient-to-b from-[#f8fafc] to-[#efefef] overflow-hidden">
+    <section className="py-4 bg-gradient-to-b from-[#f8fafc] to-[#efefef] overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl text-gradient font-playfair mb-4">

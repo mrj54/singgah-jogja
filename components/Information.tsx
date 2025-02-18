@@ -1,6 +1,6 @@
 export default function Information() {
   return (
-    <section className="py-2 md:py-2 bg-gradient-to-b from-[#efefef] to-[#e6f0f2]">
+    <section className="py-4 md:py-4 bg-gradient-to-b from-[#efefef] to-[#e6f0f2]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-16">
           <h2 className="text-3xl md:text-5xl text-gradient font-playfair mb-4 md:mb-6">
