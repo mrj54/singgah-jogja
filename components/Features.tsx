@@ -43,26 +43,26 @@ export default function Features() {
             Choose from our carefully selected range of experiences designed to showcase the best of Yogyakarta
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-8 max-w-7xl mx-auto">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="feature-item glass-effect p-10 rounded-[20px] text-center transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group"
-            >
-              <div className="w-20 h-20 mx-auto mb-6 p-4 rounded-full bg-white/10 group-hover:scale-110 transition-transform duration-300">
-                <img
-                  src={feature.icon}
-                  alt={feature.title}
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <h3 className="text-blue-500 mb-4 text-2xl font-playfair">
-                {feature.title}
-              </h3>
-              <p className="text-gray-700">{feature.description}</p>
-            </div>
-          ))}
-        </div>
+       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 px-4 md:px-8 max-w-7xl mx-auto">
+  {features.map((feature, index) => (
+    <div
+      key={index}
+      className="feature-item glass-effect p-6 md:p-10 rounded-[16px] md:rounded-[20px] text-center transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 group"
+    >
+      <div className="w-16 h-16 md:w-20 md:h-20 mx-auto mb-4 md:mb-6 p-3 md:p-4 rounded-full bg-white/10 group-hover:scale-110 transition-transform duration-300">
+        <img
+          src={feature.icon}
+          alt={feature.title}
+          className="w-full h-full object-contain"
+        />
+      </div>
+      <h3 className="text-blue-500 mb-2 md:mb-4 text-lg md:text-2xl font-playfair">
+        {feature.title}
+      </h3>
+      <p className="text-gray-700 text-sm md:text-base">{feature.description}</p>
+    </div>
+  ))}
+</div>
       </div>
     </section>
   );
