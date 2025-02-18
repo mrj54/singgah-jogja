@@ -25,7 +25,7 @@ export default function Navbar() {
       <div
         className={`nav-links ml-auto ${
           isMenuOpen
-            ? "active flex-col absolute top-full left-0 right-0 glass-effect mt-2 p-4 rounded-[20px] transition-all duration-300"
+            ? "active flex-col absolute top-full left-0 right-0 glass-effect mt-2 p-2 rounded-[20px] transition-all duration-300" // Mengurangi padding
             : "hidden md:flex items-center gap-4"
         }`}
       >

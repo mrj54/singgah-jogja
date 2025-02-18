@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="relative w-full h-full overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-br from-black/70 to-transparent z-10" />
           <img
-            src="/img/Cream & Black Elegant Welcome Landscape Poster_20250217_130746_0000.png"
+            src="/img/hro.png"
             alt="Jogja collection"
             className="absolute inset-0 w-full h-full object-cover grayscale opacity-80"
           />
