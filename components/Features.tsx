@@ -59,7 +59,7 @@ export default function Features() {
               <h3 className="text-[#e2eaec]  mb-2 md:mb-4 text-lg md:text-2xl font-playfair">
                 {feature.title}
               </h3>
-              <p className="text-white text-xs md:text-base">{feature.description}</p>
+          
             </div>
           ))}
         </div>
