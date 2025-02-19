@@ -68,13 +68,13 @@ export default function Festivals() {
   };
 
   return (
-    <section className="py-4 bg-gradient-to-b from-[#f8fafc] to-[#efefef] overflow-hidden">
+    <section className="py-8 bg-gradient-to-b from-[#f8fafc] to-[#efefef] overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl text-gradient font-playfair mb-4">
             Upcoming Events
           </h2>
-          <p className="text-[#9ebecb] max-w-2xl mx-auto">
+          <p className="text-[#46798d] max-w-2xl mx-auto">
             Don't miss out on Yogyakarta's most anticipated cultural events and festivals
           </p>
         </div>

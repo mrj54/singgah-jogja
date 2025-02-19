@@ -16,7 +16,7 @@ export default function Hero() {
             <h1 className="text-5xl md:text-7xl font-bold font-playfair mb-4 animate-fadeInUp bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-300">
               JOGJA SINGGAH
             </h1>
-            <div className="w-20 h-1 bg-gradient-to-r from-[#7296a4] to-[#9ebecb] mx-auto mb-8 animate-fadeInUp delay-200" />
+            <div className="w-20 h-1 bg-gradient-to-r from-[#5d7b86] to-[#9ebecb] mx-auto mb-8 animate-fadeInUp delay-200" />
             <h2 className="text-3xl md:text-4xl font-playfair mb-8 animate-fadeInUp delay-200 text-gray-200">
               Discover the Soul of Java
             </h2>
@@ -30,7 +30,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent z-10" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/50 to-transparent z-90" />
       </section>
     </div>
   );

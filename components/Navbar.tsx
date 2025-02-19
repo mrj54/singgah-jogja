@@ -17,7 +17,7 @@ export default function Navbar() {
           height={32}
           className="object-contain"
         />
-        <div className="text-lg font-medium font-playfair text-white">
+        <div className="text-lg font-medium font-playfair text-blue">
           jogjasinggah
           <span className="text-[#9ebecb]">.</span>
         </div>
@@ -31,7 +31,7 @@ export default function Navbar() {
       >
         <Link 
           href="#home" 
-          className="text-white text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
+          className="text-blue text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
           onClick={() => setIsMenuOpen(false)}
         >
           <span>Home</span>
@@ -39,7 +39,7 @@ export default function Navbar() {
         </Link>
         <Link 
           href="#about" 
-          className="text-white text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
+          className="text-blue text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
           onClick={() => setIsMenuOpen(false)}
         >
           <span>About</span>
@@ -47,7 +47,7 @@ export default function Navbar() {
         </Link>
         <Link 
           href="#more" 
-          className="text-white text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
+          className="text-blue text-sm hover:text-[#9ebecb] transition-colors relative group py-3 md:py-0"
           onClick={() => setIsMenuOpen(false)}
         >
           <span>Explore</span>
